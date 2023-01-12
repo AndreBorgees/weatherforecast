@@ -32,6 +32,3 @@ jobs:
       shell: cmd
       run: |
          xcopy /s /y .\weatherforecast\* C:\projetoon
-         
-         
-        
