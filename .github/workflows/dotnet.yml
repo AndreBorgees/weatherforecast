@@ -30,6 +30,6 @@ jobs:
     - name: Deploy IIS
       shell: cmd
       run: |
-         xcopy /s /y .\weatherforecast\* c:\bait
+         xcopy /s /y .\weatherforecast\* c:\inetpub\wwwroot
          
  
