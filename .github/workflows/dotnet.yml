@@ -29,5 +29,8 @@ jobs:
       
     - name: Deploy IIS
       shell: cmd
-      run: iisreset /stop xcopy /s /y .\weatherforecast\*  c:\inetpub\wwwroot iisreset /start
+      run: |
+         iisreset /stop 
+         xcopy /s /y .\weatherforecast\* c:\inetpub\wwwroot 
+         iisreset /start
  
