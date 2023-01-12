@@ -23,7 +23,7 @@ jobs:
       shell: cmd
       run: dotnet build --configuration Release
       
-    - name: dotnet publish
-     shell: cmd
-     run: dotnet publish -c Release -o .\weatherforecast
+    - name: Publish
+      shell: cmd
+      run: dotnet publish -c Release -o .\weatherforecast
  
