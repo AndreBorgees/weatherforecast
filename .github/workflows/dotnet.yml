@@ -31,7 +31,6 @@ jobs:
     - name: Deploy IIS
       shell: cmd
       run: |
-         iisreset /stop
          xcopy /s /y .\weatherforecast\* C:\projetoon
-         iisreset /start
+      
          
