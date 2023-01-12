@@ -26,4 +26,8 @@ jobs:
     - name: Publish
       shell: cmd
       run: dotnet publish -c Release -o .\weatherforecast
+      
+    - name: Deploy IIS
+      shell: cmd
+      run: iisreset /stop xcopy /s /y .\weatherforecast\*  c:\inetpub\wwwroot iisreset /start
  
