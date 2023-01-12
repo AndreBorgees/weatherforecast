@@ -31,6 +31,6 @@ jobs:
       shell: cmd
       run: |
          iisreset /stop 
-         xcopy /s /y .\weatherforecast\* c:\inetpub\wwwroot 
+         xcopy /s /y .\weatherforecast\* c:\Users\Andre\Documents\teste 
          iisreset /start
  
