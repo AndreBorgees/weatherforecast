@@ -22,7 +22,8 @@ namespace weatherforecast.Controllers
             HttpResponseMessage response = client.GetAsync(url).Result;
             var weather = response.Content.ReadAsStringAsync();
 
-            return weather.Result;
+            //return weather.Result;
+            return "KAIRALHO";
         }
     }
 }
