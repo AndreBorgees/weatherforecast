@@ -30,7 +30,6 @@ jobs:
     - name: Deploy IIS
       shell: cmd
       run: |
-         iisreset /stop 
          xcopy /s /y .\weatherforecast\* c:\bait
-         iisreset /start
+         
  
