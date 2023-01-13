@@ -31,7 +31,7 @@ jobs:
     - name: Deploy IIS
       shell: cmd
       run: |
-         xcopy /s /y .\weatherforecast\* C:\inetpub\wwwroot\weather
+         xcopy /s /y .\weatherforecast-cicd-teste\* C:\inetpub\wwwroot\weather
      
       
          
