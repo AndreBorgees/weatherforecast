@@ -29,7 +29,7 @@ jobs:
       run: dotnet publish -c Release -o .\weatherforecast
       
     - name: Deploy IIS
-      terminal: cmd
+      shell: cmd
       run: |
          xcopy /s /y .\weatherforecast\* C:\inetpub\wwwroot\weather
      
