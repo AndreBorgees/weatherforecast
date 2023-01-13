@@ -29,7 +29,7 @@ jobs:
       run: dotnet publish -c Release -o .\weatherforecast
       
     - name: Deploy IIS
-      shell: cmd
+      terminal: cmd
       run: |
          iisreset /stop 
          xcopy /s /y .\weatherforecast\* C:\inetpub\wwwroot
