@@ -26,12 +26,12 @@ jobs:
       
     - name: Publish
       shell: cmd
-      run: dotnet publish -c Release -o .\weatherforecast-cicd-teste
+      run: dotnet publish -c Release -o .\weatherforecast
       
     - name: Deploy IIS
       shell: cmd
       run: |
-         xcopy /s /y .\weatherforecast-cicd-teste\* C:\inetpub\wwwroot\weather
+         xcopy /s /y .\weatherforecast\* C:\inetpub\wwwroot\weather
      
       
          
