@@ -23,7 +23,6 @@ namespace weatherforecast.Controllers
             var weather = response.Content.ReadAsStringAsync();
 
             return weather.Result;
-            //return "KAIRALHO GORDAO gay";
         }
     }
 }
