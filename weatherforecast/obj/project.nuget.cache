@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z8U/YEvrtG+d7Z4pD9erhTVLN2HQ05/1/scpBIdbLlu0VspdngayGREcnQ2Pve506rj4gQusWStrZXmsy+gmUg==",
+  "dgSpecHash": "lhFvAx+JwzWXwVekr7hR7tf1CYhgtNOBx2xcBFrkWQchktZr52LJ8Uo6vciQM811FtfFRB82XbzXzylLsLrsHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andre\\Documents\\weather-forecast\\weatherforecast\\weatherforecast\\weatherforecast.csproj",
+  "projectFilePath": "C:\\Projetos\\Zoeira\\weatherforecast-cicd-teste\\weatherforecast\\weatherforecast.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Andre\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
