@@ -54,4 +54,4 @@ C:\Projetos\Zoeira\weatherforecast-cicd-teste\weatherforecast\obj\Debug\net5.0\r
 C:\Projetos\Zoeira\weatherforecast-cicd-teste\weatherforecast\obj\Debug\net5.0\weatherforecast.pdb
 C:\Projetos\Zoeira\weatherforecast-cicd-teste\weatherforecast\obj\Debug\net5.0\weatherforecast.genruntimeconfig.cache
 C:\Projetos\Zoeira\weatherforecast-cicd-teste\weatherforecast\obj\Debug\net5.0\ref\weatherforecast.dll
-C:\Projetos\Zoeira\weatherforecast-cicd-teste\weatherforecast\bin\Debug\net5.0\weatherforecast.StaticWebAssets.xml
+C:\Projetos\Zoeira\weatherforecast-cicd-teste\weatherforecast\obj\Debug\net5.0\staticwebassets\weatherforecast.StaticWebAssets.xml
