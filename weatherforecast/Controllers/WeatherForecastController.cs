@@ -26,7 +26,6 @@ namespace weatherforecast.Controllers
 
             var result = JsonConvert.DeserializeObject<WeatherModel>(weather.Result);
 
-
             return result;
         }
     }
